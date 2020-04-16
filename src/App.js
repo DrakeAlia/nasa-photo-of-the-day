@@ -1,14 +1,21 @@
 import React from "react";
+import styled from "styled-components";
 import "./App.css";
+import Card from "./components/Card";
+
+
+
+const TitleMe = styled.h1`
+   font-family: 'Oswald', sans-serif;
+    margin: 4%;
+    `;
 
 function App() {
   return (
-    <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun <span role="img" aria-label='go!'>🚀</span>!
-      </p>
-    </div>
+    <TitleMe className="App">
+      Photo Of the Day
+      <Card />
+      </TitleMe>
   );
 }
 

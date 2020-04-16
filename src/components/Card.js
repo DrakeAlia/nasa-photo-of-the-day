@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from "axios"
 import CardContent from "./CardContent"
 
+// use state passing in for info // 
 function Card() {
   const [info, setInfo] = useState([])
   // console.log([info])

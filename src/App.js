@@ -4,7 +4,7 @@ import "./App.css";
 import Card from "./components/Card";
 
 
-
+// stylying component //
 const TitleMe = styled.h1`
    font-family: 'Oswald', sans-serif;
     margin: 4%;

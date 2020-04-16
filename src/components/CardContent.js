@@ -3,16 +3,18 @@ import {Col, Collapse,Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styled from "styled-components"
 
-
+// 
 const FontMe = styled.h1`
     font-family: 'Codystar', cursive;
     margin: 4%;
 `;
+// 
 const BackgroundMe = styled.div`
     background: ${props => (props.visible ? "black" : "white")};
     &:hover {background:  ${props => (props.visible ? "white" : "black")};}
 `;
 
+// card content component //
 const CardContent = (props) =>{
     // console.log(props)
 

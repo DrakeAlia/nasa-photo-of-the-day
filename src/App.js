@@ -13,7 +13,7 @@ const TitleMe = styled.h1`
 function App() {
   return (
     <TitleMe className="App">
-      Photo Of the Day
+      Photo Of The Day
       <Card />
       </TitleMe>
   );
